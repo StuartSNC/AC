@@ -1,0 +1,22 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "mocha tests/**/*.test.js",
+    "lint": "eslint ."
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    // Your dependencies here
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "mocha": "^8.0.0",
+    "eslint": "^7.0.0"
+  }
+}
